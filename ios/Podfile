@@ -5,8 +5,9 @@
 require File.expand_path(File.join('..', 'Flutter', 'podhelper.rb'), __FILE__)
 
 # Set Firebase SDK version for cloud_firestore compatibility
+$FirebaseSDKVersion = '11.4.2'
 def firebase_sdk_version
-  '11.4.2'
+  $FirebaseSDKVersion
 end
 
 platform :ios, '15.0'
