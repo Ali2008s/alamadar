@@ -10,16 +10,12 @@ end
 
 def flutter_install_ios_plugin_pods(ios_application_path = nil)
   ios_application_path ||= File.dirname(File.realpath(__FILE__))
-  # If ios_application_path is 'ios', then project_path should be root.
-  # So we don't need another '..'
   project_path = File.expand_path('..', ios_application_path)
   
   # The file is in the project root.
   plugins_file = File.join(project_path, '.flutter-plugins-dependencies')
   
-  # Check if we were passed 'ios' or root or something else
   unless File.exist?(plugins_file)
-    # Check current directory
     plugins_file = File.join(Dir.pwd, '.flutter-plugins-dependencies')
   end
   
@@ -33,9 +29,14 @@ def flutter_install_ios_plugin_pods(ios_application_path = nil)
     path = plugin['path']
     next if name.nil? || path.nil?
     
-    # In Ruby, if path is from Windows, we need to ensure it's handled or ignore it
-    # But as we confirmed, Codemagic generates it, so it should be a Mac path
-    pod name, :path => File.join(path, 'ios')
+    # Check if 'ios' directory exists. If not, use the path directly (federated plugin)
+    ios_path = File.join(path, 'ios')
+    if File.exist?(ios_path)
+      pod name, :path => ios_path
+    else
+      # For federated plugins (like audioplayers_darwin), podspec is often in the root
+      pod name, :path => path
+    end
   end
 end
 
