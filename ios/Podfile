@@ -4,6 +4,11 @@
 # The next line is required for Flutter
 require File.expand_path(File.join('..', 'Flutter', 'podhelper.rb'), __FILE__)
 
+# Set Firebase SDK version for cloud_firestore compatibility
+def firebase_sdk_version
+  '11.4.2'
+end
+
 platform :ios, '15.0'
 
 # CocoaPods analytics sends network stats synchronous to help focus development efforts on most used plugins.
