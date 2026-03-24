@@ -1,0 +1,235 @@
+{
+  "project_info": {
+    "project_number": "135301880194",
+    "firebase_url": "https://hnd9-db536-default-rtdb.firebaseio.com",
+    "project_id": "hnd9-db536",
+    "storage_bucket": "hnd9-db536.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135301880194:android:146718a03159faa980179b",
+        "android_client_info": {
+          "package_name": "com.alamna.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdGlNCxDOk0ee-XYz2HQ7JaahxdOyv9GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "135301880194-f7agh1ni0ip7s0i5f3sq951nvnvghl3s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iqonic.streamitlaravel"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135301880194:android:5d009bfd2f4d06ab80179b",
+        "android_client_info": {
+          "package_name": "com.app.almadar.almadar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdGlNCxDOk0ee-XYz2HQ7JaahxdOyv9GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "135301880194-f7agh1ni0ip7s0i5f3sq951nvnvghl3s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iqonic.streamitlaravel"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135301880194:android:e641b61e845d8b5780179b",
+        "android_client_info": {
+          "package_name": "com.example.iptv_admin_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdGlNCxDOk0ee-XYz2HQ7JaahxdOyv9GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "135301880194-f7agh1ni0ip7s0i5f3sq951nvnvghl3s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iqonic.streamitlaravel"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135301880194:android:684a61c9b9fa5fb780179b",
+        "android_client_info": {
+          "package_name": "com.iqonic.streamitlaravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135301880194-gkm5bfum9vmo9hvkek5r2cqmpalosrol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iqonic.streamitlaravel",
+            "certificate_hash": "4c243b4d6a4cf65040d5f806c70ac841176d4c6c"
+          }
+        },
+        {
+          "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdGlNCxDOk0ee-XYz2HQ7JaahxdOyv9GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "135301880194-f7agh1ni0ip7s0i5f3sq951nvnvghl3s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iqonic.streamitlaravel"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135301880194:android:8e2d6b64d786b99680179b",
+        "android_client_info": {
+          "package_name": "com.iqonic.streamitlaraveltv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdGlNCxDOk0ee-XYz2HQ7JaahxdOyv9GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "135301880194-f7agh1ni0ip7s0i5f3sq951nvnvghl3s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iqonic.streamitlaravel"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135301880194:android:f4b47f7240dc9a3880179b",
+        "android_client_info": {
+          "package_name": "com.sky.ostouratv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdGlNCxDOk0ee-XYz2HQ7JaahxdOyv9GQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135301880194-4bqpkcdbubsqb9ir3dbept6nnl98049o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "135301880194-f7agh1ni0ip7s0i5f3sq951nvnvghl3s.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iqonic.streamitlaravel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

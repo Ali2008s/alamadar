@@ -1,0 +1,13 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // الحل الجذري لمشكلة الصلاحيات
+    // هذه القواعد تسمح للجميع بالقراءة، ولكن تسمح فقط للمشرف (صاحب هذا الإيميل) بالإضافة والتعديل
+    
+    match /{document=**} {
+      allow read: if true;
+      allow write: if request.auth != null && request.auth.token.email == 'hmwshy402@gmail.com';
+    }
+  }
+}
