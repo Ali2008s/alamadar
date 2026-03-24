@@ -14,7 +14,6 @@ def flutter_install_ios_plugin_pods(ios_application_path = nil)
   
   # The file is in the project root.
   plugins_file = File.join(project_path, '.flutter-plugins-dependencies')
-  
   unless File.exist?(plugins_file)
     plugins_file = File.join(Dir.pwd, '.flutter-plugins-dependencies')
   end
@@ -29,12 +28,19 @@ def flutter_install_ios_plugin_pods(ios_application_path = nil)
     path = plugin['path']
     next if name.nil? || path.nil?
     
-    # Check if 'ios' directory exists. If not, use the path directly (federated plugin)
+    # If the plugin is firebase_core, we might need its helper
+    if name == 'firebase_core'
+      firebase_helper = File.join(path, 'ios', 'firebase_sdk_version.rb')
+      if File.exist?(firebase_helper)
+        require firebase_helper
+      end
+    end
+    
+    # Check for ios subfolder or root (federated plugin)
     ios_path = File.join(path, 'ios')
     if File.exist?(ios_path)
       pod name, :path => ios_path
     else
-      # For federated plugins (like audioplayers_darwin), podspec is often in the root
       pod name, :path => path
     end
   end
