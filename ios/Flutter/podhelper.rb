@@ -36,10 +36,14 @@ def flutter_install_ios_plugin_pods(ios_application_path = nil)
       end
     end
     
-    # Check for ios subfolder or root (federated plugin)
+    # Check for ios, darwin, or root (for federated/modern plugins)
     ios_path = File.join(path, 'ios')
+    darwin_path = File.join(path, 'darwin')
+    
     if File.exist?(ios_path)
       pod name, :path => ios_path
+    elsif File.exist?(darwin_path)
+      pod name, :path => darwin_path
     else
       pod name, :path => path
     end
